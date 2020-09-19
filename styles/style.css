@@ -23,13 +23,14 @@ a {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   width: 80vw;
   margin: auto;
-  /* padding-bottom: 2.5rem; */
 }
 
 main {
+  flex: 1 1 auto;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -91,11 +92,9 @@ footer {
   color: var(--shadow-color);
   text-align: center;
   font-size: 0.6em;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
   margin-bottom: 0;
+  margin-top: 4em;
   height: 3rem;
 }
 
