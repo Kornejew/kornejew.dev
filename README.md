@@ -1,1 +1,1 @@
-My personal landing page for https://kornejew.me
+My personal landing page for https://kornejew.dev
