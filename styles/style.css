@@ -21,6 +21,8 @@ a {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 80vw;
   margin: auto;
@@ -41,7 +43,7 @@ main {
   margin-left: 4em;
 }
 
-.name{
+.name {
   margin-left: 0.5em;
 }
 .name > h1 {
@@ -107,7 +109,6 @@ footer > p {
   margin: 0;
 }
 
-
 /* Great effects from https://github.com/IanLunn/Hover by Ian Lunn */
 
 /* Radial Out */
@@ -156,4 +157,32 @@ footer > p {
   transform: scale(2);
 }
 
+@media only screen and (max-width: 1200px) {
+  main {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
 
+  .content {
+    margin: auto;
+    margin-top: 3em;
+  }
+  #portrait {
+    margin: auto;
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container{
+    width: 100vw;
+    margin: 0;
+    align-items: center;
+    
+  }
+  #portrait{
+    
+    width: 80vw;
+    margin-left: auto;
+  }
+}
