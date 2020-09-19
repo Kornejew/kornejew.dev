@@ -40,8 +40,13 @@ main {
   margin-top: 4em;
   margin-left: 4em;
 }
-.content > h1 {
+
+.name{
+  margin-left: 0.5em;
+}
+.name > h1 {
   margin: 0;
+  margin-left: 0.1em;
 }
 
 .icons {
